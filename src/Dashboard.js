@@ -1,3 +1,5 @@
+import React from "react";
+import undraw_posting_photo from './img/undraw_posting_photo.svg';
 const Dashboard=()=> {
     return(
 <div className="dashborad-sec">
@@ -177,7 +179,7 @@ const Dashboard=()=> {
       </div>
       <div className="card-body">
         <div className="text-center">
-          <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: '25rem'}} src="./img/undraw_posting_photo.svg" alt="..." />
+          <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: '25rem'}} src={undraw_posting_photo} alt="..." />
         </div>
         <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" href="https://undraw.co/">unDraw</a>, a
           constantly updated collection of beautiful svg images that you can use
