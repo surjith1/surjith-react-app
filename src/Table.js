@@ -13,6 +13,16 @@ const Table = () => {
           </div>
           <div className="card-body">
             <div className="table-responsive">
+            <div className="row d-flex justify-content-between custom-header-sec">
+            <span>
+            <label className="d-flex gap-2">Show <select name="dataTable_length" aria-controls="dataTable" className="custom-select custom-select-sm form-control form-control-sm"><option value={10}>10</option><option value={25}>25</option><option value={50}>50</option><option value={100}>100</option></select> entries</label>
+
+            </span>
+            <span>
+            <label className="d-flex gap-2">Search:<input type="search" className="form-control form-control-sm" placeholder aria-controls="dataTable" /></label>
+
+            </span>
+            </div>
               <table className="table table-bordered" id="dataTable" width="100%" cellSpacing={0}>
                 <thead>
                   <tr>
